@@ -1,0 +1,170 @@
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: #006699;
+    align-items: center;
+    }
+
+/*.navbar {
+    width: 1440px;
+    height: 151px;
+    left: 0px;
+    top: 0px;
+    background-color: #006699;  
+  }
+  
+  
+  .mySkills {
+    display: flex;
+    }
+  */
+  
+
+  .btn, .btn-primary {
+  background-color: #006699 !important;
+    }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+      background-color: #004263 !important;
+      border-color: #285e8e !important;/*set the color you want here*/
+  }  
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    margin: 10px; 
+    padding: 20px;
+    justify-content: center;
+    }
+  .container {
+    display:flex;
+  }
+
+  .box1 {
+    padding: 10px;
+  }
+    p {
+      font-family: "Poppins", serif;
+      font-weight: 300; display: block;
+    }
+  
+    h1 {
+  font-size: extra-large;
+  text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+    .skillsBox {
+    padding: 10px;
+    margin: 10px;
+  
+    }
+  
+  
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    overflow: hidden;
+    background-color: #006699;
+  }
+  
+  li, a, button {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 14px;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  .button, a {
+    background-color: #006699;
+  }
+  .button, a hover {
+    background-color: #004263;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .logo {
+    padding: 10px;
+  }
+  
+  .nav_links {
+    list-style: none;
+
+  }
+  
+  .nav_links li {
+    display:inline-block;
+    padding: 0px 20px;    
+    font-size: 2vw;
+  }
+    
+  .nav_links li a:hover{
+        transition: all 0.3s ease 0s;
+      }
+  
+  .nav_links li a:hover {
+    color: #004263;
+  }
+
+  /* Cards */
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  text-align: center;
+}
+.showsNear  {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+
+/* Content */
+.sideAccent {
+  background: #012b3f;
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+  .buttton {
+    padding: 9px 25px;
+    background-color: rgba(0,102,153,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .button:hover{
+   background-color:rgba(0,68,99,8.8);
+  }
+  .footer {
+    position: center;
+    text-align: center;
+    margin-bottom: 25px;
+      padding: 5px;
+      justify-content: space-between;
+  }
